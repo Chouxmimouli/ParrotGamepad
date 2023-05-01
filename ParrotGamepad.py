@@ -30,8 +30,6 @@ def notification_handler(sender, data):
 
     def Buttons(data):
         # Assume the byte is stored in a variable called 'data'
-        # Example value
-
          # Create a dictionary to map button numbers to their corresponding bits
         button_map = {"To": 0, 1: 1, 2: 2, "B": 3, "A": 4, "R1": 5, "R2": 6, "L1": 7}
 
